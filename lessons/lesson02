@@ -15,3 +15,11 @@ Lesson 2:
 
     #push the new files
     git push
+
+    #pull the new files
+    git pull
+
+    #command history
+    git log
+
+    

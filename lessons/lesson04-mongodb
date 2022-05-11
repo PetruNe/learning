@@ -1,0 +1,30 @@
+What is mongodb?
+
+MongoDB is a NoSQL document database.
+Data in mongodb is stored as a document.
+Documents are in turn stored in collections of documents.
+
+----------------------------------------------------------------
+
+What is a document?
+
+A way to organize and store data as a set of field-value pairs.
+ex:
+	{
+	<field> : <value>,
+	<field> : <value>,
+	"name" : "Tim",
+	"title": "hobo"
+	}
+
+----------------------------------------------------------------
+
+What is a collection of documents?
+
+An organized store of documents in mongodb, usually with common fields between documents.
+
+----------------------------------------------------------------
+
+What is Atlas?
+
+MongoDB in the cloud. SaaS Software as a Service.

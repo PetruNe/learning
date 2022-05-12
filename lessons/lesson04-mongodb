@@ -28,3 +28,14 @@ An organized store of documents in mongodb, usually with common fields between d
 What is Atlas?
 
 MongoDB in the cloud. SaaS Software as a Service.
+
+
+
+What is JSON?
+
+JavaScript Standard Object Notation.
+	-starts and ends with curly braces {}
+	-separate each key and value with a colon :
+	-separate each key-value pair with a comma ,
+	-"keys" must be surrounded by quotation marks " "
+		-> In MongoDB "keys" are called "fields"

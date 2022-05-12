@@ -1,1 +1,1 @@
-mongosh "mongodb+srv://m001-student@sandbox.vmxtn.mongodb.net/Sandbox"
+"mongodb+srv://m001-student:m001-student@sandbox.vmxtn.mongodb.net/admin"

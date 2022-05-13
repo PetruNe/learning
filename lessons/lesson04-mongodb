@@ -68,3 +68,8 @@ MongoDB connect:
 	db.zips.find({"state": "NY"}).count()
 	#pretty up the results
 	db.zips.find({"state": "NY"}).pretty()
+
+
+Document
+ - "_id" unique identifier for a document in a collection and required in every MongoDB document.
+ - ObjectId() is the default value for the "_id" fields unless otherwise specified.

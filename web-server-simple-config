@@ -12,11 +12,3 @@ var server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`)
 })
-
-process.on('SIGTERM', () => {   //SIGTERM is the signal that tells a process to gracefully terminate.
-  server.close(() => {
-    console.log('Process terminated');
-  });
-});
-
-process.kill(process.pid, 'SIGTERM'); // from another node.js running program if u know PID od the process

@@ -1,6 +1,7 @@
+// SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
-
-//contract "contract name" {
+/*
+//contract name {
 
     tod = "type of data to be stored into the array (ex: uint, string, bool)"
     [] = "the type of data structure, in this case [] is the array data structure"
@@ -17,3 +18,4 @@ pragma solidity >= 0.7.0 < 0.9.0;
     uint [] public numberList = [1,2,3,5];
 
 //}
+*/

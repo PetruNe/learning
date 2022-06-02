@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage() { echo "Usage: $0 -s \"name of the template\" ex: Template.sol " 1>&2; exit 1; }
+usage() { echo "Usage: $0 -s \"name of the template\" ex: Template.sol and -l to show existing templates." 1>&2; exit 1; }
 
 while getopts ":s:p:l" o; do
     case "${o}" in

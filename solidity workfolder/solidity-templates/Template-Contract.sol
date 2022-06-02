@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >= 0.7.0 < 0.9.0;
+//Remove the /* and */ tags to de-comment the code
 /*
 
-contract "contract name" {
+contract name {
 
-    function functionname ("type of data (ex: uint)" "variable name (ex: _nr)", "second parameter", "etc.")
-     "keywords (ex:public,view,returns(\"type of data to return\")" {
+    function name () keywords {
 
     };
 

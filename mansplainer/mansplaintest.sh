@@ -16,7 +16,7 @@ while getopts ":s:p:l" o; do
             ;;
         p)
             p=${OPTARG}
-            echo "${p}"
+            vim ./templates/Template-${p}.sol
             ;;
         *)
             usage

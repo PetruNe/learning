@@ -16,6 +16,7 @@ while getopts ":s:p:l" o; do
             ;;
         p)
             p=${OPTARG}
+	cp ./templates/Template.sol ./Templates/Template-${p}.sol	
             vim ./templates/Template-${p}.sol
             ;;
         *)
